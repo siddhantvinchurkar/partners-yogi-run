@@ -9,6 +9,7 @@
     ]
   },
   "hosting": {
+    "site": "ambassadors-yogi-run",
     "target": "partners-yogi-run",
     "public": "/",
     "ignore": [
