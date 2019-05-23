@@ -9,5 +9,5 @@ install:
  - npm install
  - cd ..
 after_success:
- - firebase target:apply hosting partners-yogi-run yogi-run
+ - firebase target:apply hosting yogi-run partners-yogi-run
  - firebase deploy --project yogi-run --only hosting:partners-yogi-run --token $FIREBASE_TOKEN
