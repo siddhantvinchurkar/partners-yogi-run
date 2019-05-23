@@ -41,7 +41,11 @@
         </nav>
     </div>
 
-    <p>Yogi Run | Partners is live!</p>
+    <div class="container" style="padding-top:50px; padding-bottom:50px;">
+    
+    	<div id="partner_data_container" class="row"><!-- Partner data will be injected here --></div>
+    	
+    </div>
 
 </main>
 
@@ -58,17 +62,20 @@
 <script type="text/javascript" src="https://www.gstatic.com/firebasejs/5.10.0/firebase-firestore.js" defer></script>
 <script type="text/javascript" src="https://www.gstatic.com/firebasejs/5.10.0/firebase-storage.js" defer></script>
 
-<!-- Google Analytics Scripts -->
+<!-- Google Analytics Scripts (We'll put this here eventually...)
 <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-139059069-1" async></script>
 <script type="text/javascript">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-139059069-1');
-</script>
+</script>-->
 
 <!-- App Script -->
 <script type="text/javascript" src="main.js" defer></script>
+
+<!-- Google Spreadsheets Script-->
+<script type="text/javascript" src="https://spreadsheets.google.com/feeds/cells/1EQy2nROtz1zXkCgw_Aw9ZJCL7_GMOU9PH5JZUEqq_Xg/1/public/values?alt=json-in-script&callback=partnerData" defer></script>
 
 </body>
 
